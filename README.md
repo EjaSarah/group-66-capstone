@@ -1,5 +1,3 @@
-# group-66-capstone
-
 # Waste2Build — Resource Recovery Marketplace (Capstone)
 
 Waste2Build is a role-based marketplace that connects waste generators with recyclers.  
@@ -12,3 +10,12 @@ Generators list recyclable waste, recyclers accept and pay (with a 5% platform f
 - Image hosting: Cloudinary
 
 ## Repo Structure (Monorepo)
+backend/
+frontend/
+docs/
+
+
+## Branch Workflow
+- `main` → stable baseline only (protected)
+- `develop` → active integration branch
+- `feature/*` → feature branches merged into `develop` via PR
